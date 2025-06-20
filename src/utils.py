@@ -14,7 +14,7 @@ def build_rotate_command(pitch, yaw, controller_id):
 def build_toggle_debug_cam_command():
    return "ToggleDebugCamera"
 
-def build_list_cameras_command(controller_type = "DebugCameraControls"):
+def build_list_cameras_command(controller_type = "DebugCameraControl"):
    return f"GetAll {controller_type}"
 
 def mk_dynamic_folder(title = "notitle"):
