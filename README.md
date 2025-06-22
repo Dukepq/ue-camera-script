@@ -17,7 +17,7 @@ You'll want to set/change some constants such as the game title (used to prefix 
 
 ### customizing the number of captures and their angles
 
-You may need/want to alter the points.json file to customize the number of screenshots and the angles at which they are taken,
+You may need/want to alter the `points.json` file to customize the number of screenshots and the angles at which they are taken,
 but you must adhere to the following format:
 
 ```json
