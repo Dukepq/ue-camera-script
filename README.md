@@ -13,7 +13,7 @@ This should list out all DebugCameraController objects.
 
 ### setting constants
 
-You'll want to set/change some constants such as the game title (used to prefix the folder name) or the key you're using to open the UE console inside of `constants.py`.
+You'll want to set/change some constants such as the game title (used to prefix the folder name) or to indicate the key you're using to open the UE console inside of `constants.py` (default $).
 
 ### customizing the number of captures and their angles
 
