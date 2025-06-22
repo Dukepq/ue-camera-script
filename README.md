@@ -8,12 +8,12 @@ This script offers **_a_** way to capture screenshots that can be stitched into 
 
 This script can be used in conjunction with [Universal Unreal Engine 4 Unlocker (UUU v4)](https://opm.fransbouma.com/uuuv4.htm), and likely also works with UUU v5.
 
-For the script to set the camera rotation you'll need the UE DebugCameraController object id, which can be found by opening the console and entering the "ToggleDebugCamera" command, then entering the "GetAll DebugCameraController" command.
+For the script to set the camera rotation you'll need the UE DebugCameraController object id, which can be found by opening the console and entering the `ToggleDebugCamera` command, then entering the `GetAll DebugCameraController` command.
 This should list out all DebugCameraController objects.
 
 ### setting constants
 
-You'll want to set/change some constants such as the game title (used to prefix the folder name) or to indicate the key (default $) you're using to open the UE console inside of `constants.py`.
+You'll want to set/change some constants such as the game title (used to prefix the output folder name) or to indicate the key (default $) you're using to open the UE console inside of `constants.py`.
 
 ### customizing the number of captures and their angles
 
