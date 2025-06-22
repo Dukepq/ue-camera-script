@@ -1,7 +1,6 @@
 import os
 import time
 
-
 def get_dirname():
    return os.path.dirname(os.path.abspath(__file__))
 

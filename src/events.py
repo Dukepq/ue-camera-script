@@ -18,6 +18,6 @@ def on_press(key):
       c_thread.start()
     else:
       print("Already capturing images...")
-  if key == keyboard.Key.f10:
+  if key == keyboard.Key.esc:
      print("Terminating...")
      sys.exit()
