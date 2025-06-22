@@ -25,6 +25,5 @@ but you must adhere to the following format:
   { "theta": 0, "phi": -90 },
   { "theta": 0, "phi": -60 },
   { "theta": 90, "phi": -60 }
-  // ...
 ]
 ```
