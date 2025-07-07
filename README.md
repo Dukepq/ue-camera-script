@@ -38,5 +38,5 @@ but you must adhere to the following format:
 | `ToggleDebugCamera`| Toggles the debug camera, allowing you to move around freely |
 | `GetAll DebugCameraController`| Returns a list of all DebugCameraController objects |
 | `fov`| Sets FOV |
-| `r.Tonemapper.Quality`| Disables all tone mapping effects, such as vignetting |
+| `r.Tonemapper.Quality`| Sets all tone mapping effects, such as vignetting |
 
