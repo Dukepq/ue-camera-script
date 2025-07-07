@@ -11,6 +11,9 @@ This script can be used in conjunction with [Universal Unreal Engine 4 Unlocker 
 For the script to set the camera rotation you'll need the UE DebugCameraController object id, which can be found by opening the console and entering the `ToggleDebugCamera` command, then entering the `GetAll DebugCameraController` command.
 This should list out all DebugCameraController objects.
 
+NOTE: Whenever possible it is best to disable unecessary effects, such as vignetting, inside of the engine itself, instead of attempting to compensate for them after the screenshots were taken.
+For example, you could pass `r.Tonemapper.Quality 0` to completely disable tone mapping effects, such as vignetting.
+
 ### setting constants
 
 You'll want to set/change some constants such as the game title (used to prefix the output folder name) or to indicate the key (default $) you're using to open the UE console inside of `constants.py`.
@@ -27,3 +30,13 @@ but you must adhere to the following format:
   { "theta": 90, "phi": -60 }
 ]
 ```
+
+### useful console commands
+
+| command | description |
+| :- | :- |
+| `ToggleDebugCamera`| Toggles the debug camera, allowing you to move around freely |
+| `GetAll DebugCameraController`| Returns a list of all DebugCameraController objects |
+| `fov`| Sets FOV |
+| `r.Tonemapper.Quality`| Disables all tone mapping effects, such as vignetting |
+
